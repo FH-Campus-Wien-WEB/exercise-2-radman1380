@@ -43,7 +43,7 @@ app.put('/movies/:imdbID',function(req,res){
   if(existiert){
     res.sendStatus(200)
   }else{
-    res.sendStatus(201).send(movie)
+    res.status(201).send(movie)
   }
 })  
 
