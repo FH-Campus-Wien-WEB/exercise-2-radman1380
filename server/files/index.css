@@ -1,41 +1,64 @@
 @import url(base.css);
 
-h1 {
-  font-size: 200%;
-  margin: 8px 0px;
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 img {
-  border-radius: 12px;
+  border-radius: 2.2rem;
+  max-width: 100%;
+}
+
+img:hover {
+  box-shadow: 0 8px 18px rgba(23, 25, 179, 0.50);
+  transition: 0.2s;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0.8rem;
+}
+
+h1:hover {
+  color: whitesmoke;
+}
+
+p {
+  margin-left: 0.8rem;
 }
 
 article {
-  background-color: lightgray;
-  border-radius: 16px;
-  padding: 16px;
-  margin: 2vw;
+  background-color: rgb(194, 194, 194);
+  border-radius: 2rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 span {
-  margin-right: 4px;
+  margin-left: 0.8rem;
+  border-radius: 1rem;
+  background-color: rgb(92, 92, 92);
+  color: whitesmoke;
 }
 
 .genre {
-  padding: 4px 8px;
-  border: solid black 1px;
-  border-radius: 6px;
-  background-color: darkgray;
-  font-weight: bold;
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-top: 0.3rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  background-color: rgb(167, 167, 167);
+  color: whitesmoke;
+}
+button {
+  margin: 0.8rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
 }
 
-input {
-  width: 100%;
-}
-
-select {
-  width: 100%;
-}
-
-textarea {
-  width: 100%;
+button:hover {
+  opacity: 0.9;
 }
